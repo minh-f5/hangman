@@ -1,10 +1,10 @@
-from utils.game import hangman
+from utils.game import Hangman
 import sys  
 # main.py
 
 
 def main():
-    game = hangman()
+    game = Hangman()
     game.start_game()
 
 if __name__ == "__main__":
